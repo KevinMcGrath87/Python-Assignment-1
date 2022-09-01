@@ -5,9 +5,10 @@ string = 'Hello World'#variable declaration with string data type
 pizza_toppings = ['Pepperoni', 'Sausage', 'Jalepenos', 'Cheese', 'Olives'] # variable declaration list data type
 person = {'name': 'John', 'location': 'Salt Lake', 'age': 37, 'is_balding': False} #dictionary dtat type variable declaration
 fruit = ('blueberry', 'strawberry', 'banana')#variable declaration tuple data type
-print(type(fruit))#log statement should print contents of the fruit tuple
+print(type(fruit))#log statement of a type checkshould print data type of the fruit tuple
 print(pizza_toppings[1])# log statement should print the second item in the list "pizza_toppings"
 pizza_toppings.append('Mushrooms')#adds the value Like "push" in js to the list pizza_toppings
+print(pizza_toppings)
 print(person['name'])#log statement of the value in the dictionary associated with key item "name"
 person['name'] = 'George'#changes value of item associated with key :name in the dicitonary of person
 person['eye_color'] = 'blue'#essentially the same as above
